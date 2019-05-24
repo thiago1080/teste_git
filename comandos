@@ -7,6 +7,7 @@ git shortlog -sn
 git log --graph
 git diff
 git diff --name-only
+<<<<<<< HEAD
 
 git reset HEAD -nome-do-arquivo    - Tira do stage
 git checkout nome-do-arquivo (reseta)
@@ -23,3 +24,5 @@ git stash apply
 git stash clear
 
 
+=======
+>>>>>>> parent of cea3a26... desfazer
