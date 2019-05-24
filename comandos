@@ -5,3 +5,5 @@ git log --author thiago
 git shortlog
 git shortlog -sn
 git log --graph
+git diff
+git diff --name-only
