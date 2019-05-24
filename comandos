@@ -7,3 +7,12 @@ git shortlog -sn
 git log --graph
 git diff
 git diff --name-only
+
+git reset HEAD -nome-do-arquivo    - Tira do stage
+git checkout nome-do-arquivo (reseta)
+
+git reset --soft volta para stage
+			--mixed volta e tira do stage
+			--hard  destroi o commit
+
+
