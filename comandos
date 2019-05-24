@@ -13,6 +13,13 @@ git checkout nome-do-arquivo (reseta)
 
 git reset --soft volta para stage
 			--mixed volta e tira do stage
-			--hard  destroi o commit
+			--hard  destroi o commit, inclusive as modificações
+
+git checkout -b nome-do-branch
+git branchd -D nome-do-branch
+
+git stash
+git stash apply
+git stash clear
 
 
